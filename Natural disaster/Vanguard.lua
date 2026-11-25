@@ -29,7 +29,7 @@ VG_SG.Parent = CORE
 
 -- [ ========== SETTINGS  ========== ] --
 
-SETTINGS_PATH = "[ND] VANGUARD/options.json"
+SETTINGS_PATH = "[NDS] VANGUARD/options.json"
 
 VG_SETTINGS = {
     AntiFling = false,
@@ -45,8 +45,8 @@ VG_SETTINGS = {
     PredictingDisasters = false
 }
 
-if not isfolder("[ND] VANGUARD") then
-    makefolder("[ND] VANGUARD")
+if not isfolder("[NDS] VANGUARD") then
+    makefolder("[NDS] VANGUARD")
 end
 
 function RESET_SETTINGS()
